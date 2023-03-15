@@ -9,21 +9,14 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setMessage(true);
-    emailjs
-      .sendForm(
-        "service_hn9xczg",
-        "template_ub85um5",
-        formRef.current,
-        "QpwS9yXX9wpvhq31W"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm("key", "key", formRef.current, "key").then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
 
     e.target.reset();
   };
