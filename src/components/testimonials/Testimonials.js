@@ -32,7 +32,7 @@ const Testimonials = () => {
       link: "https://www.linkedin.com/in/akuu-khan/",
       name: "akbar (Aku) Khan",
       role: "Full Stack Developer| Ruby on Rails | PostgreSQL | JavaScript | React | Redux | Html&Css | Python.",
-      test: "I worked with Suraj in the same team and him communication skills are very strong. him programming skill is one of the bests, given the time frame in the field. He is a good team player.  He will probably fit in most of the companies not only because He's a good team worker, but also because He has very good skills and I know He has much more potential to be shown.",
+      test: "I worked with Suraj in the same team and him communication skills are very strong. His programming skill is one of the bests, given the time frame in the field. He is a good team player.  He will probably fit in most of the companies not only because He's a good team worker, but also because He has very good skills and I know He has much more potential to be shown.",
     },
     {
       id: 4,
