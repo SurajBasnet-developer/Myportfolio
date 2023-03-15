@@ -46,7 +46,7 @@ const Testimonials = () => {
       link: "https://www.linkedin.com/in/hamzaalitarar/",
       name: "Hamza Tarar",
       role: "Software Developer",
-      test: "Throughout all our collaborations, Suraj has always conducted himself politely and kindly. He comes across as someone that's always willing to help and puts the team ahead of himself. But beneath this, I see a strength and determination to distinguish herself. He's not only someone I highly recommend but is also someone I greatly respect.",
+      test: "Throughout all our collaborations, Suraj has always conducted himself politely and kindly. He comes across as someone that's always willing to help and puts the team ahead of himself. But beneath this, I see a strength and determination to distinguish himself. He's not only someone I highly recommend but is also someone I greatly respect.",
     },
   ];
   return (
