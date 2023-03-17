@@ -6,6 +6,7 @@ import IMG3 from "../../assets/gituser.png";
 import IMG4 from "../../assets/covid.png";
 import IMG5 from "../../assets/qr.png";
 import IMG6 from "../../assets/weather.png";
+import IMG7 from "../../assets/task.png";
 
 const Portfolio = () => {
   const soloprojects = [
@@ -68,6 +69,16 @@ const Portfolio = () => {
       technologies: "CSS | JavaScript",
       link: "https://surajbasnet-developer.github.io/weatherApp/",
       github: "https://github.com/SurajBasnet-developer/weatherApp",
+    },
+
+    {
+      id: 7,
+      title: "TODO App",
+      img: IMG7,
+      description: "Manage your daily tasks with this TODO app",
+      technologies: "CSS | React | Vite ",
+      link: "https://yourtask.vercel.app/",
+      github: "https://github.com/SurajBasnet-developer/TodoApp",
     },
   ];
 
