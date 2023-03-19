@@ -7,6 +7,8 @@ import IMG4 from "../../assets/covid.png";
 import IMG5 from "../../assets/qr.png";
 import IMG6 from "../../assets/weather.png";
 import IMG7 from "../../assets/task.png";
+import IMG8 from "../../assets/urlmin.png";
+import IMG9 from "../../assets/watch.png";
 
 const Portfolio = () => {
   const soloprojects = [
@@ -79,6 +81,25 @@ const Portfolio = () => {
       technologies: "CSS | React | Vite ",
       link: "https://yourtask.vercel.app/",
       github: "https://github.com/SurajBasnet-developer/TodoApp",
+    },
+    {
+      id: 8,
+      title: "URL Shortner",
+      img: IMG8,
+      description: "Get rid of longest URL",
+      technologies: "Chakra-UI | React | Vite ",
+      link: "https://urlmin.vercel.app/",
+      github: "https://github.com/SurajBasnet-developer/URLShortner",
+    },
+
+    {
+      id: 9,
+      title: "Stopwatch",
+      img: IMG9,
+      description: "Fastest way to watch",
+      technologies: "Chakra-UI | React | Vite ",
+      link: "https://yourstopwatch.vercel.app/",
+      github: "https://github.com/SurajBasnet-developer/Stopwatch",
     },
   ];
 
